@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Sign-Up/Login Form</title>
+  <title>Survey</title>
   <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
@@ -12,8 +12,13 @@
   
 </head>
 
+
 <body>
+
   <div class="form">
+    <h1>Survey Form</h1>
+    <hr/>
+    <br><br>
     <div class="field-wrap">
             <label>
               First Name<span class="req">*</span>
@@ -50,8 +55,8 @@
         </div>
       </div>
           </div>
-
-
+          <br/>
+      <hr/>
 
     <div class= "top-row">
       <div  class = "form-group"><p>What is your issue
@@ -69,14 +74,74 @@
 
      <div class = "top-row">
 
-      <form>
-        <input type="radio" name="gender" value="male" checked> Male<br>
-        <input type="radio" name="gender" value="female"> Female<br>
-        <input type="radio" name="gender" value="other"> Other
-      </form>
       
+        <div class="form-group">
+            <div class="col-md-3">
+        <select class="validate[required] select" name = "Country" id="FormCasket" data-style="btn-success">
+        <option value="">Software issue</option>
+        <option value="Phlippines">Hardware issue</option>
+        <option value="Malaysia">Other</option>
+        </select>                           
+        </div>
       </div>
 
+        <div class="form-group">
+            <div class="col-md-3">
+        <select class="validate[required] select" name = "Country" id="FormCasket" data-style="btn-success">
+        <option value="">Not all satisfied</option>
+        <option value="Phlippines">Satisfied</option>
+        <option value="Malaysia">Very satisfied</option>
+        </select>                           
+        </div>
+      </div>
+      
+      </div>
+      <br>
+      <hr/>
+      
+
+      <div  class = "form-group"><p>Please rate ou products on a scale from 1 to 5:</p>
+
+       </div>
+
+
+<div class="form-group">
+     <div class="col-md-3">Millenium Disk Professional Edition    
+      <select class="validate[required] select" name = "casktettype" id="FormCasket" data-style="btn-success">
+      <option value="">1</option>
+      <option value="Wood">2</option>
+      <option value="Metal">3</option>
+      <option value="Metal">4</option>
+      <option value="Metal">5</option>
+    </select>                           
+  </div>                        
+</div>
+<br>
+
+<div class="form-group">
+     <div class="col-md-3">Clean up PC 2015 Office Edition    
+      <select class="validate[required] select" name = "casktettype" id="FormCasket" data-style="btn-success">
+      <option value="">1</option>
+      <option value="Wood">2</option>
+      <option value="Metal">3</option>
+      <option value="Metal">4</option>
+      <option value="Metal">5</option>
+    </select>                           
+  </div>                        
+</div>
+<br>
+
+<div class="form-group">
+     <div class="col-md-3">Data SmartRescue15    
+      <select class="validate[required] select" name = "casktettype" id="FormCasket" data-style="btn-success">
+      <option value="">1</option>
+      <option value="Wood">2</option>
+      <option value="Metal">3</option>
+      <option value="Metal">4</option>
+      <option value="Metal">5</option>
+    </select>                           
+  </div>                        
+</div>
      </div>
     
         
